@@ -51,14 +51,14 @@ select * from json_table(
 		['numeric', 'searchFieldConfigid'], 
 		['character varying', 'term']]
 ) as (
-	a1 character varying,
-	a2 numeric,
-	a3 character varying)
+	operator character varying,
+	searchFieldConfigid numeric,
+	term character varying)
 
 ```
 return
 
-a1<br />character varying | a2<br />numeric| a3<br />character varying
+operator<br />character varying | searchFieldConfigid<br />numeric| term<br />character varying
 ------------ | ------------ | -------------
 and|1|mountain and lake
 and|3|jokes stories
